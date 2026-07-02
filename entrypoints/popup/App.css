@@ -1,0 +1,72 @@
+:root {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(160deg, #ecfeff 0%, #f8fafc 45%, #e2f3ff 100%);
+}
+
+#root {
+  width: 360px;
+  min-height: 520px;
+  margin: 0 auto;
+  padding: 16px;
+  color: #0f172a;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  background: #ffffffcc;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.brand-logo {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.brand p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.panel {
+  background: #ffffffcc;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+.panel h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #155e75;
+}
+
+.panel ul,
+.panel ol {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.5;
+}
